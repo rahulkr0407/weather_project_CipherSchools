@@ -1,0 +1,36 @@
+s (28 sloc)  1.28 KB
+
+<!doctype html>
+<html class="no-js" lang="english">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto" rel="stylesheet">  
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="title" content="AgEagle Engineering Test" />
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <div class="header">
+      <p>For the map, I integrated <a href="https://www.mapbox.com/" target="_blank">Mapbox's</a> API, and for the weather data I integrated <a href="https://openweathermap.org/" target="_blank">Open Weather Map's</a> data.</p>
+    </div>
+    
+    <div class="map">
+      <div id='map' style='height: 350px;'></div>
+    </div>
+    <div class="content"></div>
+    
+  </div>
+  
+
+<script src="app.js"></script>
+</body>
+</html>
